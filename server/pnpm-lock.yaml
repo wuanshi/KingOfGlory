@@ -1,0 +1,723 @@
+lockfileVersion: 5.3
+
+specifiers:
+  cors: ^2.8.5
+  express: 5.0.0-alpha.7
+  inflection: ^1.13.1
+  mongoose: ^5.13.3
+  multer: ^1.4.2
+
+dependencies:
+  cors: 2.8.5
+  express: 5.0.0-alpha.7
+  inflection: registry.nlark.com/inflection/1.13.1
+  mongoose: registry.nlark.com/mongoose/5.13.3
+  multer: 1.4.2
+
+packages:
+
+  /accepts/1.3.7:
+    resolution: {integrity: sha1-UxvHJlF6OytB+FACHGzBXqq1B80=, tarball: accepts/download/accepts-1.3.7.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-types: registry.nlark.com/mime-types/2.1.31
+      negotiator: 0.6.2
+    dev: false
+
+  /array-flatten/2.1.1:
+    resolution: {integrity: sha1-Qmu52oQJDBg42BLIFQryCoMx4pY=, tarball: array-flatten/download/array-flatten-2.1.1.tgz}
+    dev: false
+
+  /bl/2.2.1:
+    resolution: {integrity: sha1-jBGntzBlXF1WiYzchxIk9A/ZAdU=, tarball: bl/download/bl-2.2.1.tgz}
+    dependencies:
+      readable-stream: 2.3.7
+      safe-buffer: 5.2.1
+    dev: false
+
+  /bluebird/3.5.1:
+    resolution: {integrity: sha1-2VUfnemPH82h5oPRfukaBgLuLrk=, tarball: bluebird/download/bluebird-3.5.1.tgz}
+    dev: false
+
+  /body-parser/1.18.3:
+    resolution: {integrity: sha1-WykhmP/dVTs6DyDe0FkrlWlVyLQ=, tarball: body-parser/download/body-parser-1.18.3.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      bytes: 3.0.0
+      content-type: 1.0.4
+      debug: registry.nlark.com/debug/2.6.9
+      depd: 1.1.2
+      http-errors: 1.6.3
+      iconv-lite: registry.nlark.com/iconv-lite/0.4.23
+      on-finished: 2.3.0
+      qs: 6.5.2
+      raw-body: 2.3.3
+      type-is: 1.6.18
+    dev: false
+
+  /buffer-from/1.1.1:
+    resolution: {integrity: sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=, tarball: buffer-from/download/buffer-from-1.1.1.tgz}
+    dev: false
+
+  /busboy/0.2.14:
+    resolution: {integrity: sha1-bCpiLvz0fFe7vh4qnDetNseSVFM=, tarball: busboy/download/busboy-0.2.14.tgz}
+    engines: {node: '>=0.8.0'}
+    dependencies:
+      dicer: 0.2.5
+      readable-stream: 1.1.14
+    dev: false
+
+  /bytes/3.0.0:
+    resolution: {integrity: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=, tarball: bytes/download/bytes-3.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /concat-stream/1.6.2:
+    resolution: {integrity: sha1-kEvfGUzTEi/Gdcd/xKw9T/D9GjQ=, tarball: concat-stream/download/concat-stream-1.6.2.tgz}
+    engines: {'0': node >= 0.8}
+    dependencies:
+      buffer-from: 1.1.1
+      inherits: 2.0.4
+      readable-stream: 2.3.7
+      typedarray: 0.0.6
+    dev: false
+
+  /content-disposition/0.5.2:
+    resolution: {integrity: sha1-DPaLud318r55YcOoUXjLhdunjLQ=, tarball: content-disposition/download/content-disposition-0.5.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /content-type/1.0.4:
+    resolution: {integrity: sha1-4TjMdeBAxyexlm/l5fjJruJW/js=, tarball: content-type/download/content-type-1.0.4.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /cookie-signature/1.0.6:
+    resolution: {integrity: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=, tarball: cookie-signature/download/cookie-signature-1.0.6.tgz}
+    dev: false
+
+  /cookie/0.3.1:
+    resolution: {integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=, tarball: cookie/download/cookie-0.3.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /core-util-is/1.0.2:
+    resolution: {integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=, tarball: core-util-is/download/core-util-is-1.0.2.tgz}
+    dev: false
+
+  /cors/2.8.5:
+    resolution: {integrity: sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=, tarball: cors/download/cors-2.8.5.tgz}
+    engines: {node: '>= 0.10'}
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
+    dev: false
+
+  /denque/1.5.0:
+    resolution: {integrity: sha1-dz3gaG/y2Owv+SkUMWpHtzscc94=, tarball: denque/download/denque-1.5.0.tgz}
+    engines: {node: '>=0.10'}
+    dev: false
+
+  /depd/1.1.2:
+    resolution: {integrity: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=, tarball: depd/download/depd-1.1.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /destroy/1.0.4:
+    resolution: {integrity: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=, tarball: destroy/download/destroy-1.0.4.tgz}
+    dev: false
+
+  /dicer/0.2.5:
+    resolution: {integrity: sha1-WZbAhrszIYyBLAkL3cCc0S+stw8=, tarball: dicer/download/dicer-0.2.5.tgz}
+    engines: {node: '>=0.8.0'}
+    dependencies:
+      readable-stream: 1.1.14
+      streamsearch: 0.1.2
+    dev: false
+
+  /ee-first/1.1.1:
+    resolution: {integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=, tarball: ee-first/download/ee-first-1.1.1.tgz}
+    dev: false
+
+  /encodeurl/1.0.2:
+    resolution: {integrity: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=, tarball: encodeurl/download/encodeurl-1.0.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /escape-html/1.0.3:
+    resolution: {integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=, tarball: escape-html/download/escape-html-1.0.3.tgz}
+    dev: false
+
+  /etag/1.8.1:
+    resolution: {integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=, tarball: etag/download/etag-1.8.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /express/5.0.0-alpha.7:
+    resolution: {integrity: sha1-h5v7G9UoNGRqnYw6dzhjw25NSUw=, tarball: express/download/express-5.0.0-alpha.7.tgz}
+    engines: {node: '>= 0.10.0'}
+    dependencies:
+      accepts: 1.3.7
+      array-flatten: 2.1.1
+      body-parser: 1.18.3
+      content-disposition: 0.5.2
+      content-type: 1.0.4
+      cookie: 0.3.1
+      cookie-signature: 1.0.6
+      debug: registry.nlark.com/debug/3.1.0
+      depd: 1.1.2
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      finalhandler: 1.1.1
+      fresh: 0.5.2
+      merge-descriptors: 1.0.1
+      methods: 1.1.2
+      on-finished: 2.3.0
+      parseurl: 1.3.3
+      path-is-absolute: 1.0.1
+      proxy-addr: registry.nlark.com/proxy-addr/2.0.7
+      qs: 6.5.2
+      range-parser: 1.2.1
+      router: registry.nlark.com/router/2.0.0-alpha.1
+      safe-buffer: 5.1.2
+      send: 0.16.2
+      serve-static: 1.13.2
+      setprototypeof: 1.1.0
+      statuses: 1.4.0
+      type-is: 1.6.18
+      utils-merge: 1.0.1
+      vary: 1.1.2
+    dev: false
+
+  /finalhandler/1.1.1:
+    resolution: {integrity: sha1-7r9O2EAHnIP0JJA4ydcDAIMBsQU=, tarball: finalhandler/download/finalhandler-1.1.1.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      debug: registry.nlark.com/debug/2.6.9
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      on-finished: 2.3.0
+      parseurl: 1.3.3
+      statuses: 1.4.0
+      unpipe: 1.0.0
+    dev: false
+
+  /fresh/0.5.2:
+    resolution: {integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=, tarball: fresh/download/fresh-0.5.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /http-errors/1.6.3:
+    resolution: {integrity: sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=, tarball: http-errors/download/http-errors-1.6.3.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      depd: 1.1.2
+      inherits: 2.0.3
+      setprototypeof: 1.1.0
+      statuses: 1.4.0
+    dev: false
+
+  /inherits/2.0.3:
+    resolution: {integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=, tarball: inherits/download/inherits-2.0.3.tgz}
+    dev: false
+
+  /inherits/2.0.4:
+    resolution: {integrity: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=, tarball: inherits/download/inherits-2.0.4.tgz}
+    dev: false
+
+  /isarray/0.0.1:
+    resolution: {integrity: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=, tarball: isarray/download/isarray-0.0.1.tgz}
+    dev: false
+
+  /isarray/1.0.0:
+    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=, tarball: isarray/download/isarray-1.0.0.tgz}
+    dev: false
+
+  /kareem/2.3.2:
+    resolution: {integrity: sha1-eMRQiJSYW404oNwV4ajhEHjyypM=, tarball: kareem/download/kareem-2.3.2.tgz}
+    dev: false
+
+  /media-typer/0.3.0:
+    resolution: {integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=, tarball: media-typer/download/media-typer-0.3.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /memory-pager/1.5.0:
+    resolution: {integrity: sha1-2HUWVdItOEaCdByXLyw9bfo+ZrU=, tarball: memory-pager/download/memory-pager-1.5.0.tgz}
+    dev: false
+    optional: true
+
+  /merge-descriptors/1.0.1:
+    resolution: {integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=, tarball: merge-descriptors/download/merge-descriptors-1.0.1.tgz}
+    dev: false
+
+  /methods/1.1.2:
+    resolution: {integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=, tarball: methods/download/methods-1.1.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /mime/1.4.1:
+    resolution: {integrity: sha1-Eh+evEnjdm8xGnbh+hyAA8SwOqY=, tarball: mime/download/mime-1.4.1.tgz}
+    hasBin: true
+    dev: false
+
+  /minimist/1.2.5:
+    resolution: {integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=, tarball: minimist/download/minimist-1.2.5.tgz}
+    dev: false
+
+  /mkdirp/0.5.5:
+    resolution: {integrity: sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=, tarball: mkdirp/download/mkdirp-0.5.5.tgz}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.5
+    dev: false
+
+  /mongoose-legacy-pluralize/1.0.2_mongoose@5.13.3:
+    resolution: {integrity: sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=, tarball: mongoose-legacy-pluralize/download/mongoose-legacy-pluralize-1.0.2.tgz}
+    peerDependencies:
+      mongoose: '*'
+    dependencies:
+      mongoose: registry.nlark.com/mongoose/5.13.3
+    dev: false
+
+  /mpath/0.8.3:
+    resolution: {integrity: sha1-gorA0Yf39CZ0g510khlwl5q73Y8=, tarball: mpath/download/mpath-0.8.3.tgz}
+    engines: {node: '>=4.0.0'}
+    dev: false
+
+  /ms/2.0.0:
+    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=, tarball: ms/download/ms-2.0.0.tgz?cache=0&sync_timestamp=1607436580765&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.0.0.tgz}
+    dev: false
+
+  /ms/2.1.2:
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, tarball: ms/download/ms-2.1.2.tgz?cache=0&sync_timestamp=1607436580765&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fms%2Fdownload%2Fms-2.1.2.tgz}
+    dev: false
+
+  /multer/1.4.2:
+    resolution: {integrity: sha1-Lx9NEtuu66dMs35iPyNL9NPSBXo=, tarball: multer/download/multer-1.4.2.tgz}
+    engines: {node: '>= 0.10.0'}
+    dependencies:
+      append-field: registry.nlark.com/append-field/1.0.0
+      busboy: 0.2.14
+      concat-stream: 1.6.2
+      mkdirp: 0.5.5
+      object-assign: 4.1.1
+      on-finished: 2.3.0
+      type-is: 1.6.18
+      xtend: 4.0.2
+    dev: false
+
+  /negotiator/0.6.2:
+    resolution: {integrity: sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=, tarball: negotiator/download/negotiator-0.6.2.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=, tarball: object-assign/download/object-assign-4.1.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /on-finished/2.3.0:
+    resolution: {integrity: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=, tarball: on-finished/download/on-finished-2.3.0.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      ee-first: 1.1.1
+    dev: false
+
+  /parseurl/1.3.3:
+    resolution: {integrity: sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=, tarball: parseurl/download/parseurl-1.3.3.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /path-is-absolute/1.0.1:
+    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=, tarball: path-is-absolute/download/path-is-absolute-1.0.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /path-to-regexp/0.1.7:
+    resolution: {integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=, tarball: path-to-regexp/download/path-to-regexp-0.1.7.tgz}
+    dev: false
+
+  /process-nextick-args/2.0.1:
+    resolution: {integrity: sha1-eCDZsWEgzFXKmud5JoCufbptf+I=, tarball: process-nextick-args/download/process-nextick-args-2.0.1.tgz}
+    dev: false
+
+  /qs/6.5.2:
+    resolution: {integrity: sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=, tarball: qs/download/qs-6.5.2.tgz}
+    engines: {node: '>=0.6'}
+    dev: false
+
+  /range-parser/1.2.1:
+    resolution: {integrity: sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE=, tarball: range-parser/download/range-parser-1.2.1.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /raw-body/2.3.3:
+    resolution: {integrity: sha1-GzJOzmtXBuFThVvBFIxlu39uoMM=, tarball: raw-body/download/raw-body-2.3.3.tgz}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      bytes: 3.0.0
+      http-errors: 1.6.3
+      iconv-lite: registry.nlark.com/iconv-lite/0.4.23
+      unpipe: 1.0.0
+    dev: false
+
+  /readable-stream/1.1.14:
+    resolution: {integrity: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=, tarball: readable-stream/download/readable-stream-1.1.14.tgz}
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.4
+      isarray: 0.0.1
+      string_decoder: 0.10.31
+    dev: false
+
+  /readable-stream/2.3.7:
+    resolution: {integrity: sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=, tarball: readable-stream/download/readable-stream-2.3.7.tgz}
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+
+  /regexp-clone/1.0.0:
+    resolution: {integrity: sha1-Ii25Z2IydwViYLmSYmNUoEzpv2M=, tarball: regexp-clone/download/regexp-clone-1.0.0.tgz}
+    dev: false
+
+  /safe-buffer/5.1.2:
+    resolution: {integrity: sha1-mR7GnSluAxN0fVm9/St0XDX4go0=, tarball: safe-buffer/download/safe-buffer-5.1.2.tgz}
+    dev: false
+
+  /safe-buffer/5.2.1:
+    resolution: {integrity: sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=, tarball: safe-buffer/download/safe-buffer-5.2.1.tgz}
+    dev: false
+
+  /safer-buffer/2.1.2:
+    resolution: {integrity: sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=, tarball: safer-buffer/download/safer-buffer-2.1.2.tgz}
+    dev: false
+
+  /saslprep/1.0.3:
+    resolution: {integrity: sha1-TAL5RrVs9UKX40e6EJPnrKxM8iY=, tarball: saslprep/download/saslprep-1.0.3.tgz}
+    engines: {node: '>=6'}
+    dependencies:
+      sparse-bitfield: 3.0.3
+    dev: false
+    optional: true
+
+  /send/0.16.2:
+    resolution: {integrity: sha1-bsyh4PjBVtFBWXVZhI32RzCmu8E=, tarball: send/download/send-0.16.2.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      debug: registry.nlark.com/debug/2.6.9
+      depd: 1.1.2
+      destroy: 1.0.4
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      fresh: 0.5.2
+      http-errors: 1.6.3
+      mime: 1.4.1
+      ms: 2.0.0
+      on-finished: 2.3.0
+      range-parser: 1.2.1
+      statuses: 1.4.0
+    dev: false
+
+  /serve-static/1.13.2:
+    resolution: {integrity: sha1-CV6Ecv1bRiN9tQzkhqQ/S4bGzsE=, tarball: serve-static/download/serve-static-1.13.2.tgz}
+    engines: {node: '>= 0.8.0'}
+    dependencies:
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      parseurl: 1.3.3
+      send: 0.16.2
+    dev: false
+
+  /setprototypeof/1.1.0:
+    resolution: {integrity: sha1-0L2FU2iHtv58DYGMuWLZ2RxU5lY=, tarball: setprototypeof/download/setprototypeof-1.1.0.tgz}
+    dev: false
+
+  /sparse-bitfield/3.0.3:
+    resolution: {integrity: sha1-/0rm5oZWBWuks+eSqzM004JzyhE=, tarball: sparse-bitfield/download/sparse-bitfield-3.0.3.tgz}
+    dependencies:
+      memory-pager: 1.5.0
+    dev: false
+    optional: true
+
+  /statuses/1.4.0:
+    resolution: {integrity: sha1-u3PURtonlhBu/MG2AaJT1sRr0Ic=, tarball: statuses/download/statuses-1.4.0.tgz}
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  /streamsearch/0.1.2:
+    resolution: {integrity: sha1-gIudDlb8Jz2Am6VzOOkpkZoanxo=, tarball: streamsearch/download/streamsearch-0.1.2.tgz}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  /string_decoder/0.10.31:
+    resolution: {integrity: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=, tarball: string_decoder/download/string_decoder-0.10.31.tgz}
+    dev: false
+
+  /string_decoder/1.1.1:
+    resolution: {integrity: sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=, tarball: string_decoder/download/string_decoder-1.1.1.tgz}
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+
+  /type-is/1.6.18:
+    resolution: {integrity: sha1-TlUs0F3wlGfcvE73Od6J8s83wTE=, tarball: type-is/download/type-is-1.6.18.tgz}
+    engines: {node: '>= 0.6'}
+    dependencies:
+      media-typer: 0.3.0
+      mime-types: registry.nlark.com/mime-types/2.1.31
+    dev: false
+
+  /typedarray/0.0.6:
+    resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=, tarball: typedarray/download/typedarray-0.0.6.tgz}
+    dev: false
+
+  /unpipe/1.0.0:
+    resolution: {integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=, tarball: unpipe/download/unpipe-1.0.0.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /util-deprecate/1.0.2:
+    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=, tarball: util-deprecate/download/util-deprecate-1.0.2.tgz}
+    dev: false
+
+  /utils-merge/1.0.1:
+    resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=, tarball: utils-merge/download/utils-merge-1.0.1.tgz}
+    engines: {node: '>= 0.4.0'}
+    dev: false
+
+  /vary/1.1.2:
+    resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=, tarball: vary/download/vary-1.1.2.tgz}
+    engines: {node: '>= 0.8'}
+    dev: false
+
+  /xtend/4.0.2:
+    resolution: {integrity: sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=, tarball: xtend/download/xtend-4.0.2.tgz}
+    engines: {node: '>=0.4'}
+    dev: false
+
+  registry.nlark.com/@types/bson/4.0.4:
+    resolution: {integrity: sha1-edLSboEHAETbKhqLLML2c8hA4eU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/bson/download/@types/bson-4.0.4.tgz}
+    name: '@types/bson'
+    version: 4.0.4
+    dependencies:
+      '@types/node': registry.nlark.com/@types/node/15.14.2
+    dev: false
+
+  registry.nlark.com/@types/mongodb/3.6.20:
+    resolution: {integrity: sha1-t8XFgGRPY2QAK2Sa8cBsPARU4dI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/mongodb/download/@types/mongodb-3.6.20.tgz}
+    name: '@types/mongodb'
+    version: 3.6.20
+    dependencies:
+      '@types/bson': registry.nlark.com/@types/bson/4.0.4
+      '@types/node': registry.nlark.com/@types/node/15.14.2
+    dev: false
+
+  registry.nlark.com/@types/node/15.14.2:
+    resolution: {integrity: sha1-evirIBVlhvB29HYLwbPF3f/9H/I=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/node/download/@types/node-15.14.2.tgz}
+    name: '@types/node'
+    version: 15.14.2
+    dev: false
+
+  registry.nlark.com/append-field/1.0.0:
+    resolution: {integrity: sha1-HjRA6RXwsSA9I3SOeO3XubW0PlY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/append-field/download/append-field-1.0.0.tgz}
+    name: append-field
+    version: 1.0.0
+    dev: false
+
+  registry.nlark.com/bson/1.1.6:
+    resolution: {integrity: sha1-+4Gb6aYM1nfghTruTKcSp4XWYYo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/bson/download/bson-1.1.6.tgz}
+    name: bson
+    version: 1.1.6
+    engines: {node: '>=0.6.19'}
+    dev: false
+
+  registry.nlark.com/debug/2.6.9:
+    resolution: {integrity: sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/debug/download/debug-2.6.9.tgz}
+    name: debug
+    version: 2.6.9
+    dependencies:
+      ms: 2.0.0
+    dev: false
+
+  registry.nlark.com/debug/3.1.0:
+    resolution: {integrity: sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/debug/download/debug-3.1.0.tgz}
+    name: debug
+    version: 3.1.0
+    dependencies:
+      ms: 2.0.0
+    dev: false
+
+  registry.nlark.com/forwarded/0.2.0:
+    resolution: {integrity: sha1-ImmTZCiq1MFcfr6XeahL8LKoGBE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/forwarded/download/forwarded-0.2.0.tgz}
+    name: forwarded
+    version: 0.2.0
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  registry.nlark.com/iconv-lite/0.4.23:
+    resolution: {integrity: sha1-KXhx9jvlB63Pv8pxXQzQ7thOmmM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/iconv-lite/download/iconv-lite-0.4.23.tgz}
+    name: iconv-lite
+    version: 0.4.23
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: false
+
+  registry.nlark.com/inflection/1.13.1:
+    resolution: {integrity: sha1-xcrdgIiKkM+EwuluNA1+3IXV8Ms=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/inflection/download/inflection-1.13.1.tgz}
+    name: inflection
+    version: 1.13.1
+    engines: {'0': node >= 0.4.0}
+    dev: false
+
+  registry.nlark.com/ipaddr.js/1.9.1:
+    resolution: {integrity: sha1-v/OFQ+64mEglB5/zoqjmy9RngbM=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/ipaddr.js/download/ipaddr.js-1.9.1.tgz}
+    name: ipaddr.js
+    version: 1.9.1
+    engines: {node: '>= 0.10'}
+    dev: false
+
+  registry.nlark.com/mime-db/1.48.0:
+    resolution: {integrity: sha1-41sxBF3X6to6qtU37YijOvvvLR0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/mime-db/download/mime-db-1.48.0.tgz}
+    name: mime-db
+    version: 1.48.0
+    engines: {node: '>= 0.6'}
+    dev: false
+
+  registry.nlark.com/mime-types/2.1.31:
+    resolution: {integrity: sha1-oA12t0MXxh+cLbIhi46fjpxcnms=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/mime-types/download/mime-types-2.1.31.tgz?cache=0&sync_timestamp=1622590248104&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmime-types%2Fdownload%2Fmime-types-2.1.31.tgz}
+    name: mime-types
+    version: 2.1.31
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: registry.nlark.com/mime-db/1.48.0
+    dev: false
+
+  registry.nlark.com/mongodb/3.6.10:
+    resolution: {integrity: sha1-8Q6ZARPIaxlcivBZm5s6kHSLbuQ=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/mongodb/download/mongodb-3.6.10.tgz}
+    name: mongodb
+    version: 3.6.10
+    engines: {node: '>=4'}
+    peerDependencies:
+      aws4: '*'
+      bson-ext: '*'
+      kerberos: '*'
+      mongodb-client-encryption: '*'
+      mongodb-extjson: '*'
+      snappy: '*'
+    peerDependenciesMeta:
+      aws4:
+        optional: true
+      bson-ext:
+        optional: true
+      kerberos:
+        optional: true
+      mongodb-client-encryption:
+        optional: true
+      mongodb-extjson:
+        optional: true
+      snappy:
+        optional: true
+    dependencies:
+      bl: 2.2.1
+      bson: registry.nlark.com/bson/1.1.6
+      denque: 1.5.0
+      optional-require: registry.nlark.com/optional-require/1.0.3
+      safe-buffer: 5.2.1
+    optionalDependencies:
+      saslprep: 1.0.3
+    dev: false
+
+  registry.nlark.com/mongoose/5.13.3:
+    resolution: {integrity: sha1-QstAIHu8rKnG+pSwqMCjgYHBll4=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/mongoose/download/mongoose-5.13.3.tgz}
+    name: mongoose
+    version: 5.13.3
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      '@types/mongodb': registry.nlark.com/@types/mongodb/3.6.20
+      '@types/node': registry.nlark.com/@types/node/15.14.2
+      bson: registry.nlark.com/bson/1.1.6
+      kareem: 2.3.2
+      mongodb: registry.nlark.com/mongodb/3.6.10
+      mongoose-legacy-pluralize: 1.0.2_mongoose@5.13.3
+      mpath: 0.8.3
+      mquery: registry.nlark.com/mquery/3.2.5
+      ms: 2.1.2
+      regexp-clone: 1.0.0
+      safe-buffer: 5.2.1
+      sift: registry.nlark.com/sift/13.5.2
+      sliced: registry.nlark.com/sliced/1.0.1
+    transitivePeerDependencies:
+      - aws4
+      - bson-ext
+      - kerberos
+      - mongodb-client-encryption
+      - mongodb-extjson
+      - snappy
+    dev: false
+
+  registry.nlark.com/mquery/3.2.5:
+    resolution: {integrity: sha1-jyMFYy5LsZf2j2DAz/ohqvQGDFE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/mquery/download/mquery-3.2.5.tgz}
+    name: mquery
+    version: 3.2.5
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      bluebird: 3.5.1
+      debug: registry.nlark.com/debug/3.1.0
+      regexp-clone: 1.0.0
+      safe-buffer: 5.1.2
+      sliced: registry.nlark.com/sliced/1.0.1
+    dev: false
+
+  registry.nlark.com/optional-require/1.0.3:
+    resolution: {integrity: sha1-J1uOnfHcahetFVNpwkIqRA+Jywc=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/optional-require/download/optional-require-1.0.3.tgz}
+    name: optional-require
+    version: 1.0.3
+    engines: {node: '>=4'}
+    dev: false
+
+  registry.nlark.com/proxy-addr/2.0.7:
+    resolution: {integrity: sha1-8Z/mnOqzEe65S0LnDowgcPm6ECU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/proxy-addr/download/proxy-addr-2.0.7.tgz}
+    name: proxy-addr
+    version: 2.0.7
+    engines: {node: '>= 0.10'}
+    dependencies:
+      forwarded: registry.nlark.com/forwarded/0.2.0
+      ipaddr.js: registry.nlark.com/ipaddr.js/1.9.1
+    dev: false
+
+  registry.nlark.com/router/2.0.0-alpha.1:
+    resolution: {integrity: sha1-kYghO5ciFeA++DDgrHeDeHAIX20=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/router/download/router-2.0.0-alpha.1.tgz}
+    name: router
+    version: 2.0.0-alpha.1
+    engines: {node: '>= 0.10'}
+    dependencies:
+      array-flatten: 2.1.1
+      debug: registry.nlark.com/debug/3.1.0
+      methods: 1.1.2
+      parseurl: 1.3.3
+      path-to-regexp: 0.1.7
+      setprototypeof: 1.1.0
+      utils-merge: 1.0.1
+    dev: false
+
+  registry.nlark.com/sift/13.5.2:
+    resolution: {integrity: sha1-JKcV4TxhewhhZs0EkX0gSlkcnaY=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/sift/download/sift-13.5.2.tgz}
+    name: sift
+    version: 13.5.2
+    dev: false
+
+  registry.nlark.com/sliced/1.0.1:
+    resolution: {integrity: sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/sliced/download/sliced-1.0.1.tgz}
+    name: sliced
+    version: 1.0.1
+    dev: false
